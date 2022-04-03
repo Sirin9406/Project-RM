@@ -47,7 +47,7 @@ export default function Signup() {
         src="microprocessor-1@2x.png"
       />
       <div className="rectangle-div12" />
-          <div className="sign-up-div">Sign up Hello</div>
+          <div className="sign-up-div">Sign up</div>
           {error && <Alert variant="danger">{error}</Alert>}
           <Form onSubmit={handleSubmit}>
             <Form.Group className="email-div w-75" id="email">
